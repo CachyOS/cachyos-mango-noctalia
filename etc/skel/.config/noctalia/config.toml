@@ -26,7 +26,7 @@ radius_bottom_left = -30
 radius_bottom_right = -30
 radius_top_left = 0
 radius_top_right = 0
-start = [ "Spacer", "launcher" ]
+start = [ "Spacer", "launcher", "Spacer_2", "active_window" ]
 thickness = 40
 
 [wallpaper.default]
@@ -135,6 +135,14 @@ enabled = [ "noctalia/screen_recorder", "leo/game-launcher", "yogaeru/mango_layo
 [shell]
 polkit_agent = true
 settings_show_advanced = true
+
+[theme]
+builtin = "Noctalia"
+mode = "dark"
+source = "wallpaper"
+
+    [theme.templates]
+    builtin_ids = [ "gtk3", "gtk4", "kcolorscheme", "qt" ]
 
 [theme]
 builtin = "Noctalia"
