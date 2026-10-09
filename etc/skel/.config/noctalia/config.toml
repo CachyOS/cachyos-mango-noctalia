@@ -155,4 +155,4 @@ type = "noctalia/screen_recorder:recorder"
 
 [widget.workspaces]
 anchor = true
-display = "none"
+show_labels = false
