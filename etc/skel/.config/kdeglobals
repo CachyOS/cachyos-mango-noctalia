@@ -1,8 +1,0 @@
-[General]
-ColorScheme=Noctalia
-Name=noctalia
-TerminalApplication=alacritty
-UseSystemBell=true
-
-[Icons]
-Theme=breeze-dark
